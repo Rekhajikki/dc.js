@@ -1,0 +1,93 @@
+.node {
+  font: 700 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #bbb;
+}
+
+.node:hover {
+  fill: #000;
+}
+
+.nodeActive {
+  fill: #e91e63;
+  font-weight: 700;
+}
+
+.link {
+  stroke: #81b8e4;
+  stroke-opacity: .4;
+  fill: none;
+pointer-events: none;
+}
+
+.node:hover,
+.node--source,
+.node--target,
+.node--both,
+.node--source--clicked,
+.node--target--clicked,
+.node--both--clicked {
+  font-weight: 700;
+}
+
+.node--source {
+  fill: #2ca02c;
+}
+
+.node--target {
+  fill: #d62728;
+}
+
+
+.node--both {
+  fill: orange;
+}
+
+
+
+.node--source--clicked {
+  fill: #e91eb8;
+}
+
+.node--target --clicked {
+  fill: #2ca02c;
+}
+
+.node--both--clicked {
+  fill: #1b0096;
+}
+
+
+
+.link--source,
+.link--target,
+.link--both ,
+.link--source--clicked,
+.link--target--clicked ,
+.link--both--clicked {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.link--source {
+  stroke: #d62728;
+}
+
+.link--target {
+  stroke: #2ca02c;
+}
+
+.link--both {
+  stroke: orange;
+}
+
+.link--source--clicked {
+  stroke: #e91eb8;
+}
+
+.link--target--clicked {
+  stroke: steelblue;
+}
+
+.link--both--clicked {
+  stroke: #1b0096;
+}
