@@ -434,6 +434,8 @@ module.exports.jsFiles = [
     'src/heatmap.js',
     'src/d3.box.js',
     'src/box-plot.js',
+    'src/dependencywheel-chart.js',
+    'src/eventdrop-chart.js',
     'src/select-menu.js',
     'src/footer.js'  // NOTE: keep this last
 ];
